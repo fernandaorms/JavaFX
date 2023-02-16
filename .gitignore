@@ -1,0 +1,15 @@
+build/
+
+test/
+
+nbproject/
+
+dist/
+
+build.xml
+
+manifest.mf
+
+.vscode/
+
+lib/
