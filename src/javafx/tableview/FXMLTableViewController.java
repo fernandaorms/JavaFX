@@ -29,7 +29,7 @@ public class FXMLTableViewController implements Initializable {
     @FXML
     private Button buttonRemove;
 
-    private List<Client> listClients = new ArrayList();
+    private List<Client> listClients = new ArrayList<>();
 
     private ObservableList<Client> observableListClients;
 
