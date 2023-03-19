@@ -1,0 +1,44 @@
+* {
+    -fx-font-family: "Inter";
+}
+
+.button {
+    -fx-background-color: #6855e0;
+    -fx-text-fill: #FFFFFF;
+    -fx-padding: 6px 12px;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+}
+
+.button.insert {
+    -fx-background-color: #2fda04;
+}
+
+.button.update {
+    -fx-background-color: #e5e100;
+}
+
+.button.delete {
+    -fx-background-color: #db4900;
+}
+
+.menu {
+    -fx-background-color: #FFFFFF;
+    -fx-alignment: center_left;
+    -fx-border-radius: 100px;
+    -fx-padding: 0 80px;
+}
+
+.menu .label {
+    -fx-font-size: 14px;
+}
+
+.menu .text-field {
+    -fx-pref-height: 36px;
+}
+
+.menu .separator {
+    -fx-pref-height: 12px;
+    -fx-opacity: 0;
+}
